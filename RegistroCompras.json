@@ -1,0 +1,40 @@
+{
+  "RegistroCompras": {
+    "InformacoesGerais": {
+      "NomeLoja": "Equipamentos Esportivos Brasil",
+      "Data": "2025-01-17"
+    },
+    "Transacoes": [
+       {
+    "ID": "300001",
+    "Produto": "Barra Olímpica 20KG",
+    "Preco": 450.00,
+    "TipoPagamento": "Cartão de Crédito"
+  },
+  {
+    "ID": "300002",
+    "Produto": "Kettlebell 16KG",
+    "Preco": 180.00,
+    "TipoPagamento": "Pix"
+  },
+  {
+    "ID": "300003",
+    "Produto": "Corda de Pular Profissional",
+    "Preco": 65.00,
+    "TipoPagamento": "Dinheiro"
+  },
+  {
+    "ID": "300004",
+    "Produto": "Banco Ajustável de Musculação",
+    "Preco": 720.00,
+    "TipoPagamento": "Cartão de Débito"
+  },
+  {
+    "ID": "300005",
+    "Produto": "Anilhas Emborrachadas 10KG (Par)",
+    "Preco": 260.00,
+    "TipoPagamento": "Cartão de Crédito"
+  }
+    ]
+  }
+}
