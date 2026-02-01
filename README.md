@@ -181,6 +181,8 @@ Message processData(Message message) {
 
 ## 📦 Exemplo prático – iFlow para baixar
 
-📦 [Download do iFlow – Package/AlterandoPayloadcomScriptGroovy.zip](Package/AlterandoPayloadcomScriptGroovy.zip)
+📦 [Download do iFlow – Package/AlterandoPayloadcomScriptGroovy.zip](Package/Package/OData%20Integration%20with%20FTP.zip)
+
+
 
 > O arquivo pode ser importado diretamente no SAP Integration Suite (CPI).
