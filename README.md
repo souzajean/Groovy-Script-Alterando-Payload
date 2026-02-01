@@ -2,7 +2,24 @@
 
 🔀 SAP BTP CPI - Groovy Script Alterando Payload
 
-Este repositório demonstra como receber um JSON via REST, converter para XML e utilizar o **General Splitter** no **SAP Cloud Integration (CPI)** para processar cada item individualmente.
+📌 SAP CPI – Processando JSON com Groovy Script e Gerando Resumo de Transações
+
+🔎 Contexto do Cenário
+
+Este repositório demonstra nas integrações no SAP Cloud Integration (CPI), é muito comum receber mensagens em JSON contendo listas de registros, como transações de vendas, compras ou eventos.
+
+Neste exemplo, o iFlow recebe um JSON de compras, contendo:
+
+* Informações gerais da loja
+
+* Uma lista de transações
+
+* Diferentes tipos de pagamento
+
+* Valores monetários
+
+O objetivo é processar essas informações via Groovy Script e gerar um JSON de saída resumido, com dados consolidados.
+
 
 ![Capa](imagens/capa-linkedin.png)
 
