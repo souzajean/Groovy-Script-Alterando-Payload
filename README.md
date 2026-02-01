@@ -85,7 +85,7 @@ O JSON utilizado no teste pode ser encontrado em:
 ![Fluxo](imagens/Screenshot_8.png)
 ![Fluxo](imagens/Screenshot_9.png)
 ![Fluxo](imagens/Screenshot_10.png)
-![Fluxo](imagens/Screenshot_11.png)
+
 
 ## 🔄 json saida postman
 ```json saida postman
