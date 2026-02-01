@@ -1,8 +1,7 @@
-# Groovy-Script-Alterando-Payload
+# SAP CPI – Processando JSON com Groovy Script e Gerando Resumo de Transações
 
 🔀 SAP BTP CPI - Groovy Script Alterando Payload
 
-📌 SAP CPI – Processando JSON com Groovy Script e Gerando Resumo de Transações
 
 🔎 Contexto do Cenário
 
@@ -18,7 +17,7 @@ Neste exemplo, o iFlow recebe um JSON de compras, contendo:
 
 * Valores monetários
 
-O objetivo é processar essas informações via Groovy Script e gerar um JSON de saída resumido, com dados consolidados.
+📌  O objetivo é processar essas informações via Groovy Script e gerar um JSON de saída resumido, com dados consolidados.
 
 
 ![Capa](imagens/capa-linkedin.png)
@@ -29,15 +28,46 @@ O objetivo é processar essas informações via Groovy Script e gerar um JSON de
 
 O JSON utilizado no teste pode ser encontrado em:
 
-📄 [`json/ordens.json`](json/ordens.json)
+📄 [`json/ordens.json`](json/infolojas.json)
 
 ```json
 {
-  "Orders": {
-    "Pedidos": [
-      { "id": 1, "value": 100 },
-      { "id": 2, "value": 200 },
-      { "id": 3, "value": 300 }
+  "RegistroCompras": {
+    "InformacoesGerais": {
+      "NomeLoja": "Equipamentos Esportivos Brasil",
+      "Data": "2025-01-17"
+    },
+    "Transacoes": [
+       {
+    "ID": "300001",
+    "Produto": "Barra Olímpica 20KG",
+    "Preco": 450.00,
+    "TipoPagamento": "Cartão de Crédito"
+  },
+  {
+    "ID": "300002",
+    "Produto": "Kettlebell 16KG",
+    "Preco": 180.00,
+    "TipoPagamento": "Pix"
+  },
+  {
+    "ID": "300003",
+    "Produto": "Corda de Pular Profissional",
+    "Preco": 65.00,
+    "TipoPagamento": "Dinheiro"
+  },
+  {
+    "ID": "300004",
+    "Produto": "Banco Ajustável de Musculação",
+    "Preco": 720.00,
+    "TipoPagamento": "Cartão de Débito"
+  },
+  {
+    "ID": "300005",
+    "Produto": "Anilhas Emborrachadas 10KG (Par)",
+    "Preco": 260.00,
+    "TipoPagamento": "Cartão de Crédito"
+  }
     ]
   }
 }
