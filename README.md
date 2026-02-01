@@ -88,6 +88,23 @@ O JSON utilizado no teste pode ser encontrado em:
 ![Fluxo](imagens/Screenshot_11.png)
 
 
+```json saida postaman
+{
+    "Log": {
+        "InformacoesGerais": {
+            "Loja": "Equipamentos Esportivos Brasil",
+            "DataCriacao": "2025-01-17"
+        },
+        "ResumoCartao": {
+            "NumeroItens": 5,
+            "NumeroItensCartaoCredito": 2,
+            "ValorTotal": 1675.00
+        }
+    }
+}
+```
+
+
 ## 📦 Exemplo prático – iFlow para baixar
 
 📦 [Download do iFlow – SPLITTER.zip](Package/SPLITTER.zip)
