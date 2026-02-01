@@ -22,56 +22,7 @@ Neste exemplo, o iFlow recebe um JSON de compras, contendo:
 
 ![Capa](imagens/capa-linkedin.png)
 
----
 
-## 📥 Exemplo de Payload JSON
-
-O JSON utilizado no teste pode ser encontrado em:
-
-📄 [`Json/RegistroCompras.json`](Json/RegistroCompras.json)
-
-```json
-{
-  "RegistroCompras": {
-    "InformacoesGerais": {
-      "NomeLoja": "Equipamentos Esportivos Brasil",
-      "Data": "2025-01-17"
-    },
-    "Transacoes": [
-       {
-    "ID": "300001",
-    "Produto": "Barra Olímpica 20KG",
-    "Preco": 450.00,
-    "TipoPagamento": "Cartão de Crédito"
-  },
-  {
-    "ID": "300002",
-    "Produto": "Kettlebell 16KG",
-    "Preco": 180.00,
-    "TipoPagamento": "Pix"
-  },
-  {
-    "ID": "300003",
-    "Produto": "Corda de Pular Profissional",
-    "Preco": 65.00,
-    "TipoPagamento": "Dinheiro"
-  },
-  {
-    "ID": "300004",
-    "Produto": "Banco Ajustável de Musculação",
-    "Preco": 720.00,
-    "TipoPagamento": "Cartão de Débito"
-  },
-  {
-    "ID": "300005",
-    "Produto": "Anilhas Emborrachadas 10KG (Par)",
-    "Preco": 260.00,
-    "TipoPagamento": "Cartão de Crédito"
-  }
-    ]
-  }
-}
-```
 
 ## 🔄 Fluxo do iFlow
 
@@ -82,7 +33,7 @@ O JSON utilizado no teste pode ser encontrado em:
 ![Fluxo](imagens/Screenshot_5.png)
 ![Fluxo](imagens/Screenshot_6.png)
 
-📄 [`ScriptGroovy/AlterandoPayloadcomScriptGroovy.zip`](ScriptGroovy/AlterandoPayloadcomScriptGroovy.zip)
+📄 [`AlterarPayload.groovy`](AlterarPayload.groovy)
 
 ``` Groovy Script
 import com.sap.it.script.v2.api.Message
@@ -144,6 +95,56 @@ Message processData(Message message) {
 ![Fluxo](imagens/Screenshot_7.png)
 
 ![Fluxo](imagens/Screenshot_8.png)
+---
+
+## 📥 Exemplo de Payload JSON
+
+O JSON utilizado no teste pode ser encontrado em:
+
+📄 [`Json/RegistroCompras.json`](Json/RegistroCompras.json)
+
+```json
+{
+  "RegistroCompras": {
+    "InformacoesGerais": {
+      "NomeLoja": "Equipamentos Esportivos Brasil",
+      "Data": "2025-01-17"
+    },
+    "Transacoes": [
+       {
+    "ID": "300001",
+    "Produto": "Barra Olímpica 20KG",
+    "Preco": 450.00,
+    "TipoPagamento": "Cartão de Crédito"
+  },
+  {
+    "ID": "300002",
+    "Produto": "Kettlebell 16KG",
+    "Preco": 180.00,
+    "TipoPagamento": "Pix"
+  },
+  {
+    "ID": "300003",
+    "Produto": "Corda de Pular Profissional",
+    "Preco": 65.00,
+    "TipoPagamento": "Dinheiro"
+  },
+  {
+    "ID": "300004",
+    "Produto": "Banco Ajustável de Musculação",
+    "Preco": 720.00,
+    "TipoPagamento": "Cartão de Débito"
+  },
+  {
+    "ID": "300005",
+    "Produto": "Anilhas Emborrachadas 10KG (Par)",
+    "Preco": 260.00,
+    "TipoPagamento": "Cartão de Crédito"
+  }
+    ]
+  }
+}
+```
 
 ![Fluxo](imagens/Screenshot_9.png)
 
