@@ -99,18 +99,16 @@ Message processData(Message message) {
 
 ```
 
-
-
-
-## 🔄 Fluxo do Postman
+### Editando o nome do Groovy Script para **GP_AlterarPayload**
 ![Fluxo](imagens/Screenshot_7.png)
 
-![Fluxo](imagens/Screenshot_8.png)
----
+
 
 ## 📥 Exemplo de Payload JSON
 
-O JSON utilizado no teste pode ser encontrado em:
+### O JSON utilizado no teste pode ser encontrado em:
+![Fluxo](imagens/Screenshot_8.png)
+---
 
 📄 [`Json/RegistroCompras.json`](Json/RegistroCompras.json)
 
@@ -159,6 +157,7 @@ O JSON utilizado no teste pode ser encontrado em:
 
 ![Fluxo](imagens/Screenshot_9.png)
 
+## 🔄 Fluxo do Postman
 ![Fluxo](imagens/Screenshot_10.png)
 
 
