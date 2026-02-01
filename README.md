@@ -107,6 +107,6 @@ O JSON utilizado no teste pode ser encontrado em:
 
 ## 📦 Exemplo prático – iFlow para baixar
 
-📦 [Download do iFlow – SPLITTER.zip](Package/SPLITTER.zip)
+📦 [Download do iFlow – AlterarPayload.groovy](Package/AlterarPayload.groovy)
 
 > O arquivo pode ser importado diretamente no SAP Integration Suite (CPI).
