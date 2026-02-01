@@ -82,7 +82,7 @@ O JSON utilizado no teste pode ser encontrado em:
 ![Fluxo](imagens/Screenshot_5.png)
 ![Fluxo](imagens/Screenshot_6.png)
 
-📄 [`Json/RegistroCompras.json`](Json/RegistroCompras.json)
+📄 [`ScriptGroovy/AlterandoPayloadcomScriptGroovy.zip`](ScriptGroovy/AlterandoPayloadcomScriptGroovy.zip)
 
 ``` Groovy Script
 import com.sap.it.script.v2.api.Message
