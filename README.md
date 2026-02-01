@@ -26,14 +26,20 @@ Neste exemplo, o iFlow recebe um JSON de compras, contendo:
 
 ## 🔄 Fluxo do iFlow
 
+### Adicionando Pacote
 ![Fluxo](imagens/Screenshot_1.png)
+### Criando o Pacote
 ![Fluxo](imagens/Screenshot_2.png)
+
 ![Fluxo](imagens/Screenshot_3.png)
+
 ![Fluxo](imagens/Screenshot_4.png)
+
 ![Fluxo](imagens/Screenshot_5.png)
+
 ![Fluxo](imagens/Screenshot_6.png)
 
-📄 [`AlterarPayload.groovy`](AlterarPayload.groovy)
+📄 [`GroovyScript/AlterarPayload.groovy`](GroovyScript/AlterarPayload.groovy)
 
 ``` Groovy Script
 import com.sap.it.script.v2.api.Message
