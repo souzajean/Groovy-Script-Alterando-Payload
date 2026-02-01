@@ -83,6 +83,9 @@ O JSON utilizado no teste pode ser encontrado em:
 ![Fluxo](imagens/Screenshot_6.png)
 ![Fluxo](imagens/Screenshot_7.png)
 ![Fluxo](imagens/Screenshot_8.png)
+
+## 🔄 Fluxo do Postman
+
 ![Fluxo](imagens/Screenshot_9.png)
 ![Fluxo](imagens/Screenshot_10.png)
 
