@@ -28,7 +28,7 @@ Neste exemplo, o iFlow recebe um JSON de compras, contendo:
 
 O JSON utilizado no teste pode ser encontrado em:
 
-📄 [`json/RegistroCompras.json`](json/RegistroCompras.json)
+📄 [`Json/RegistroCompras.json`](Json/RegistroCompras.json)
 
 ```json
 {
