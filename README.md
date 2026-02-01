@@ -28,15 +28,20 @@ Neste exemplo, o iFlow recebe um JSON de compras, contendo:
 
 ### Adicionando Pacote
 ![Fluxo](imagens/Screenshot_1.png)
+
 ### Criando o Pacote
 ![Fluxo](imagens/Screenshot_2.png)
 
+### Criando o Integration iFlow
 ![Fluxo](imagens/Screenshot_3.png)
 
+### Editando o Integration iFlowe
 ![Fluxo](imagens/Screenshot_4.png)
 
+### Adicionando o Groovy Script
 ![Fluxo](imagens/Screenshot_5.png)
 
+### Editando o Groovy Script
 ![Fluxo](imagens/Screenshot_6.png)
 
 📄 [`GroovyScript/AlterarPayload.groovy`](GroovyScript/AlterarPayload.groovy)
